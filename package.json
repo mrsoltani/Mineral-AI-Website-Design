@@ -1,1 +1,1 @@
-{"name":"sarinapars-site","private":true,"type":"module","scripts":{"build":"node build.mjs"},"devDependencies":{"esbuild":"^0.25.0","three":"^0.187.0"}}
+{"name":"sarinapars-site","private":true,"scripts":{"build":"node -e \"const f=require('fs');f.rmSync('dist',{recursive:true,force:true});f.cpSync('site','dist',{recursive:true})\""}}

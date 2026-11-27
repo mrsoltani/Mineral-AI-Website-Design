@@ -1,6 +1,3 @@
-# سایت سارینا پارس
-- ساخت: `npm i` (یک‌بار) سپس `node build.mjs` → خروجی در `dist/`
-- پیش‌نمایش: `python -m http.server 8099 -d dist`
-- ویرایش متن: `content/fa.mjs` · رنگ‌ها و اجزا: `src/css/main.css`
-- وضعیت: خانه و هوش مصنوعی (فارسی) آماده نمونه‌اند؛ بقیه صفحات و نسخه EN در گام‌های ۴ و ۵.
-- صحنه سه‌بعدی: src/js/scene.src.js (Three.js، روی سرور خود سایت بسته‌بندی می‌شود؛ بدون WebGL، گرافیک دوبعدی جایگزین نمایش داده می‌شود)
+# Sarina Arad Pars website
+
+Static site in `site/`. `npm run build` copies it to `dist/` (Cloudflare Pages: build `npm ci && npm run build`, output `dist`).
